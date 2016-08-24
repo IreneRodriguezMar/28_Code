@@ -1,0 +1,74 @@
+/* Tu CSS va aqui */
+header{/*imagen header fondo*/
+	background-image: url(../img/header.jpg);
+	height: 700px;
+	background-size:100% 100%;
+}
+.h1{/*para que mi titulo sea grande*/
+	color: white !important;
+	margin-top: 10%;
+} 
+.blanco{/*textos blancos*/
+ color: white !important;
+}
+.salmon{/*fondo color salmon*/
+	background-color: #F05F40;
+	height: 300px;
+}	
+i{/*iconos color salmon*/
+	color: #F05F40;
+}
+img{/*para que las imagenes se vean bien*/
+	width: 100%;
+	padding: 0px !important;
+}
+.fondonegro{/*fondo negro*/
+	background-color: black;
+	height: 300px;
+}
+.texto{/*texto sobre fondo negro*/
+	font-size: 30px;
+	padding-top:5%;
+}
+hr{ /*lineas salmon*/
+	width: 40px;
+	border:solid 1px;
+	border-color: #F05F40;
+}
+.lineablanca{ /*lineas en blanco*/
+	border-color: white;
+}
+.boton{
+	background-color: #F05F40;
+	border-radius: 100px;
+	padding: 1% 2%;
+	border:none;
+}
+.botonbla{
+	background-color: white;
+	border-radius: 100px;
+	padding: 1% 2%;
+	border:none;
+}
+.negro{
+	color:black;
+}
+.textboton{
+	color: white;
+}
+.navbar-default{/*para que no me de el fondo que tiene
+	poe default en bootstrap*/
+	background-color: transparent !important;
+	border:none !important;
+}
+i{
+	margin-top: 5%;
+}
+.red{
+	color: red;
+}
+@media screen and (max-width: 800px;){
+   .fondonav{/*para que si me de el fondo*/
+   	background-color: #e7e7e7;
+	}
+}
